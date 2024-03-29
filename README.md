@@ -1,5 +1,5 @@
 # Bot de férias do IFRN Pau dos Ferros
-Um bot que posta no X (antigo twitter) quantos dias faltam para as feŕias. 😃
+Um bot que posta no X (antigo twitter) quantos dias faltam para as férias. 😃
 
 # Como alterar
 É usada a biblioteca [Tweepy](https://www.tweepy.org/) para lidar com a API do X, o que torna o código menos robusto e fácil de ser reutilizado.
