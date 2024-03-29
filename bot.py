@@ -1,8 +1,8 @@
 import tweepy
 import datetime
 
-consumer_key = ''
-consumer_secret = ''
+consumer_key = '' # api key
+consumer_secret = '' # secret api key
 access_token = ''
 access_token_secret = ''
 
@@ -15,7 +15,7 @@ client = tweepy.Client(
 # função para calcular os dias até as férias
 def calcular_dias():
     hoje = datetime.date.today()
-    ferias = datetime.date(2024, 7, 9)
+    ferias = datetime.date(2024, 7, 9) # formato ano/mes/dia
 
     dias = (ferias - hoje).days
     
